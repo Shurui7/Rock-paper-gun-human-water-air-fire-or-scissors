@@ -14,6 +14,8 @@ def checkstatus():
   else:
     print('You lose')
 
+1
+
 if user_input not in rpc_options: 
   print(f'\nYour answer is incorrect; it should be in this list: {rpc_options}\nYour answer is: {user_input}, do you see the error? Lets try again')
 else:
